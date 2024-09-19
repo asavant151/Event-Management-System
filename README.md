@@ -7,7 +7,6 @@ An Event Management System built with React, Tailwind CSS, and JSON Server for m
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Folder Structure](#folder-structure)
 
 ## Features
 
@@ -60,26 +59,4 @@ Usage
 . PUT /events/:id: Update an event by ID.
 . DELETE /events/:id: Delete an event by ID.
 
-```
-
-### Folder Structure
-```bash
-├── public
-│   └── index.html
-├── src
-│   ├── components
-│   │   ├── EventCard
-│   │   │   └── EventCard.jsx
-│   │   ├── Navigation
-│   │   │   └── Navigation.jsx
-│   ├── pages
-│   │   ├── EventList.jsx
-│   │   ├── CreateEventForm.jsx
-│   │   └── EditEventForm.jsx
-│   ├── App.js
-│   ├── index.js
-│   └── App.css
-├── db.json
-├── package.json
-└── README.md
 ```
