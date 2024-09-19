@@ -5,8 +5,8 @@ import Navigation from "../../components/Navigation/Navigation"
 import './FilterEvents.css';
 const FilterEvents = ()=>{
    const [monthYear,setMonthYear]=useState({
-    selectedMonth:null,
-    selectedYear:null
+    selectedMonth: "January",
+    selectedYear: 2023
    })
    const getMonthYear = useCallback((selectedMonth,selectedYear)=>{
       setMonthYear({selectedYear,selectedMonth})

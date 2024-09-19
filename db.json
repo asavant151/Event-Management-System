@@ -23,7 +23,7 @@
       "id": "77e6",
       "title": "Sci-Fi Symposium",
       "date": {
-        "year": "2024",
+        "year": 2024,
         "month": "March"
       },
       "location": "Hyderabad, India",
@@ -34,7 +34,7 @@
       "id": "90b2",
       "title": "Fantasy Gaming Expo",
       "date": {
-        "year": "2025",
+        "year": 2025,
         "month": "May"
       },
       "location": "Delhi, India",

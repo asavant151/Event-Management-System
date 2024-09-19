@@ -20,7 +20,15 @@ const CreateEvent = () => {
   const handleChange = (e) => {
     const { name, value } = e.target;
 
-    if (name === "year" || name === "month") {
+    if (name === "year") {
+      setEventData({
+        ...eventData,
+        date: {
+          ...eventData.date,
+          [name]: parseInt(value, 10),
+        },
+      });
+    } else if (name === "month") {
       setEventData({
         ...eventData,
         date: {

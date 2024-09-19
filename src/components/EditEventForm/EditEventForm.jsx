@@ -28,10 +28,12 @@ const EditEventForm = () => {
     const { name, value } = e.target;
     setEvent((prev) => ({
       ...prev,
-      date: { ...prev.date, [name]: value },
+      date: {
+        ...prev.date,
+        [name]: name === "year" ? Number(value) : value,
+      },
     }));
   };
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     await axios.put(`http://localhost:5000/events/${id}`, event);
