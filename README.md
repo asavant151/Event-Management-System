@@ -63,7 +63,7 @@ Usage
 ```
 
 ### Folder Structure
-
+```bash
 ├── public
 │   └── index.html
 ├── src
@@ -82,3 +82,4 @@ Usage
 ├── db.json
 ├── package.json
 └── README.md
+```
